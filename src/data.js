@@ -2,6 +2,7 @@ const data = [
   {
     id: 1,
     img: "img-1.png",
+    star: "Star.png",
     stats: {
       rating: 5.0,
       reviewCount: 6,
@@ -13,6 +14,7 @@ const data = [
   {
     id: 2,
     img: "img-2.png",
+    star: "Star.png",
     stats: {
       rating: 5.0,
       reviewCount: 30,
@@ -24,6 +26,7 @@ const data = [
   {
     id: 3,
     img: "img-3.png",
+    star: "Star.png",
     stats: {
       rating: 4.8,
       reviewCount: 2,

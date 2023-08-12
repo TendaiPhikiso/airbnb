@@ -10,6 +10,7 @@ function App() {
       <Card
         key={item.id}
         img={item.img}
+        star={item.star}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         location={item.location}
@@ -22,7 +23,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero />
-      {dataElements}
+      <section className="cards-list">{dataElements}</section>
 
       {/* <header className="App-header"></header> */}
     </div>
