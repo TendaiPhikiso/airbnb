@@ -7,9 +7,10 @@ const data = [
       rating: 5.0,
       reviewCount: 6,
     },
-    location: "USA",
+    location: "Online",
     title: "Life lessons with Katie Zaferes",
     price: 136,
+    openSpots: 0,
   },
   {
     id: 2,
@@ -19,9 +20,10 @@ const data = [
       rating: 5.0,
       reviewCount: 30,
     },
-    location: "USA",
+    location: "Online",
     title: "Learn wedding photography",
     price: 125,
+    openSpots: 27,
   },
   {
     id: 3,
@@ -31,9 +33,10 @@ const data = [
       rating: 4.8,
       reviewCount: 2,
     },
-    location: "USA",
+    location: "Norway",
     title: "Group Mountain Biking",
     price: 50,
+    openSpots: 3,
   },
 ];
 export default data;
