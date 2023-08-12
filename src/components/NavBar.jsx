@@ -4,7 +4,7 @@ import logo from "../assets/icons/airbnb-logo.svg";
 function NavBar() {
   return (
     <>
-
+    {/* creating a navigation bar */}
     <nav>
     <img src={logo} className="App-logo" alt="logo" />
         <ul className='nav--items'>
